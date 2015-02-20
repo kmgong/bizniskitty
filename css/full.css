@@ -1,0 +1,242 @@
+/*!
+Kevin's Version
+*/
+
+
+body {
+	margin-top: 50px; /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+	background-color: transparent;
+
+}
+
+/* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
+
+.full {
+	background: url(../images/nyc.jpg) no-repeat center center fixed;
+	background-size: cover;
+ /*	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+ 	background-size: cover;
+ 	-o-background-size: cover;
+ 	*/
+ }
+
+
+
+ #navbar1 {
+ 	padding-left: 33.5%;
+ 	
+ 	
+
+
+ }
+
+ #logo {
+ 	float: none; 
+ 	margin: 0 auto; 
+ 	text-align: center; 
+ 	display: block; 
+ 	width: auto; 
+ 	height: auto;
+
+ }
+
+ #logotext1 {
+ 	float: none; 
+ 	margin: 0 auto; 
+ 	text-align: center; 
+ 	display: block; 
+ 	width: auto; 
+ 	height: auto;
+ 	
+ 	color: white;
+ 	font-size: 550%;
+ 	font: helvetica;
+ }
+
+
+ #logotext2 {
+ 	float: none; 
+ 	margin: 0 auto; 
+ 	text-align: center; 
+ 	display: block; 
+ 	width: auto; 
+ 	height: auto;
+ 	
+ 	color: white;
+ 	font-size: 130%;
+ 	font: helvetica;
+ }
+
+ #signup-box {
+ 	float: none; 
+ 	margin: 0 auto; 
+ 	text-align: center; 
+ 	display: block; 
+ 	
+ 	width: 130px; 
+ 	height: 60px;
+ 	line-height: 55px;
+ 	vertical-align: bottom;
+ 	
+ 	color: #C0C0C0;
+ 	font-size: 120%;
+ 	font: helvetica;
+ 	border: 2px solid;
+ 	border-color: white;
+
+ 	margin-bottom: 10px;
+ }
+
+
+ .signup-box:hover{
+ 	background-color: white;
+ 	opacity:0.8;
+ 	text-decoration: none;
+ 	
+ 	color: #545454;
+ 	text-decoration: none;
+ 	background-color: #f5f5f5;
+ }
+ 
+ a:hover{
+ 	text-decoration: none;
+
+ }
+
+
+ 
+
+
+ #login-box {
+ 	float: none; 
+ 	margin: 0 auto; 
+ 	text-align: center; 
+ 	display: block; 
+ 	
+ 	width: 130px; 
+ 	height: 60px;
+ 	line-height: 55px;
+ 	vertical-align: bottom;
+ 	
+ 	color: #C0C0C0;
+ 	font-size: 120%;
+ 	font: helvetica;
+ 	border: 2px solid;
+ 	border-color: white;
+ }
+
+ .login-box:hover{
+ 	text-decoration: none;
+ 	background-color: white;
+ 	opacity:0.8;
+ 	
+ }
+
+
+
+/*
+
+Signup page
+
+*/
+
+#loginform {
+	float: none; 
+	margin: 0 auto; 
+	text-align: center; 
+	display: block; 
+	width: 250px; 
+	height: auto;
+	opacity: 0.8;
+
+}
+
+#surveyform {
+	float: none; 
+	margin: 0 auto; 
+	text-align: center; 
+	display: block; 
+	width: 250px; 
+	height: auto;
+	opacity: 0.8;
+	color:white;
+
+}
+
+
+
+
+
+
+
+/*
+
+About Us page
+
+*/
+
+
+
+
+.myBackground {
+	background-color: rgba(0,0,0, 0.5);
+	color: inherit;
+	margin-bottom: 0px;
+	height:100vh;
+	min-height: 100vh;
+}
+.kitty {
+	color: #ffffff;
+
+}
+
+.kittypanel > div {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 1em;
+
+}
+
+.kittybuffer { 
+	margin-top:20px; 
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+
+
+
+
+
+/*
+
+Pricing page
+
+*/
+
+
+.panel-width {
+	width: 360px;
+}
+
+.panel-kitty {
+	border-color: #478E75;
+}
+
+.panel-kitty > .panel-heading {
+	color: #fff;
+	background-color: #478E75;
+	border-color: #478E75;
+}
+.panel-kitty > .panel-heading + .panel-collapse > .panel-body {
+	border-top-color: #7a8288;
+}
+.panel-kitty > .panel-heading .badge {
+	color: #fff;
+	background-color: #7a8288;
+}
+.panel-kitty > .panel-footer + .panel-collapse > .panel-body {
+	border-bottom-color: #7a8288;
+}
+
